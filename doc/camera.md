@@ -21,6 +21,3 @@ sudo ffmpeg -f v4l2 -vcodec h264 -r 30 -s 640x480 -i /dev/video0 -vframes 100 tm
 # playback video
 ffplay -i tmp.mp4
 ```
-# Reference
-
-https://picamera.readthedocs.io/en/release-1.13/
